@@ -31,7 +31,7 @@
             <p>You are logged in!</p>
             <button id="logout">LOGOUT</button>
 
-            <a href="page2.php">Go to page 2</a>
+            <a href="shortlist.php">Go to page 2</a>
           </div>
 
       </div>

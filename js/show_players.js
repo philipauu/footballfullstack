@@ -1,4 +1,4 @@
-function show_clubs() {
+function show_players() {
   console.log('inside show_players');
   $.get('backend/players/show_players.php').done(display_players).fail(blow_up);
 }
@@ -14,16 +14,40 @@ function display_players(data) {
 
     var tr = $('<tr>');
 
-    var first_name = data[counter].first_name_id;
+    var first_name = data[counter].first_name;
     var td = $('<td>');
     td.text(first_name);
     tr.append(td);
 
-    var last_name = data[counter].last_name_id;
+    var last_name = data[counter].last_name;
     var td = $('<td>');
     td.text(last_name);
     tr.append(td);
 
+    var age = data[counter].age;
+    var td = $('<td>');
+    td.text(age);
+    tr.append(td);
+
+    var position = data[counter].position;
+    var td = $('<td>');
+    td.text(position);
+    tr.append(td);
+
+    var foot = data[counter].foot;
+    var td = $('<td>');
+    td.text(foot);
+    tr.append(td);
+
+    var nationality = data[counter].nationality;
+    var td = $('<td>');
+    td.text(nationality);
+    tr.append(td);
+
+    var club = data[counter].club;
+    var td = $('<td>');
+    td.text(club);
+    tr.append(td);
 
 
     //add data here...
