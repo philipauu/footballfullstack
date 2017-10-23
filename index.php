@@ -16,7 +16,7 @@
 <input type="text" size="30" onkeyup="showResult(this.value)" placeholder="Search...">
 <div id="livesearch"></div>
 
-<table id="list_clubs" class="table">
+<table id="list_players" class="table">
 
   <thead>
 

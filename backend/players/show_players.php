@@ -5,7 +5,7 @@ require_once('../common/logger.php');
 
 $db = new DbConnect($app_user, $app_pass);
 
-$sql = "SELECT * FROM clubs";
+$sql = "SELECT * FROM players2";
 
 $result = $db -> conn -> query($sql);
 

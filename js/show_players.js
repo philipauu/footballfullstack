@@ -1,28 +1,30 @@
 function show_clubs() {
-  console.log('inside show_clubs');
-  $.get('backend/clubs/show_clubs.php').done(display_clubs).fail(blow_up);
+  console.log('inside show_players');
+  $.get('backend/players/show_players.php').done(display_players).fail(blow_up);
 }
 
-function display_clubs(data) {
-  console.log('inside display_clubs');
+function display_players(data) {
+  console.log('inside display_players');
   data = JSON.parse(data);
   console.log(data);
-  // hopefully shows a list of clubs
-  $('#list_clubs').append(data);
+  // hopefully shows a list of players
+  $('#list_players').append(data);
 
   for (var counter = 0; counter < data.length; counter++) {
 
     var tr = $('<tr>');
 
-    var nationality = data[counter].nationality_id;
+    var first_name = data[counter].first_name_id;
     var td = $('<td>');
-    td.text(nationality);
+    td.text(first_name);
     tr.append(td);
 
-    var clubs = data[counter].clubs_id;
+    var last_name = data[counter].last_name_id;
     var td = $('<td>');
-    td.text(clubs);
+    td.text(last_name);
     tr.append(td);
+
+
 
     //add data here...
 
@@ -45,7 +47,7 @@ function display_clubs(data) {
     // td.append(button);
     // tr.append(td);
 
-    $('#list_clubs tbody').append(tr);
+    $('#list_players tbody').append(tr);
   }
 
   // $('.edit').click(do_edit);

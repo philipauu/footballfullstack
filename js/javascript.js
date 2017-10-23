@@ -4,7 +4,7 @@ $(document).ready(setup);
 
 function setup() {
   console.log('Inside setup');
-  show_clubs();
+  show_players();
   $('#inside').hide();
 
   $('#login').click(do_login);
