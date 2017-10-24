@@ -7,8 +7,8 @@
   <?php include('partials/nav.php'); ?>
 
   <div class="jumbotron">
-    <h1>Under 23 Players</h1>
-    <p>This site will show players under age 23</p>
+    <h1>Football Scouting Database</h1>
+    <p>U23 players from England, Spain, Germany and France</p>
   </div>
 
 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam nam et rem, aspernatur accusantium fugit dolorum itaque adipisci dolore vero, eos facere ullam, expedita totam fuga ad ea aperiam harum.</p>
@@ -28,6 +28,7 @@
       <th>Foot</th>
       <th>Nationality</th>
       <th>Club</th>
+      <th>Shortist Player</th>
 
     </tr>
 

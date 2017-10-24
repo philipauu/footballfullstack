@@ -53,8 +53,8 @@ function display_players(data) {
 
     var td = $('<td>');
     var button = $('<button>');
-    button.addClass('btn btn-success shortlist');
-    button.text('shortlist');
+    button.addClass('btn btn-grey shortlist');
+    button.text('Shortlist');
     td.append(button);
     tr.append(td);
 
