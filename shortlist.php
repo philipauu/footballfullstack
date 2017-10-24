@@ -14,7 +14,7 @@ if (!$_SESSION['logged_in']) {
   <?php include('partials/nav.php'); ?>
 
   <div class="jumbotron">
-    <h1>PHP SESSIONS</h1>
+    <h1>SHORTLISTED PLAYERS</h1>
     <p>YOU ARE LOGGED IN</p>
   </div>
 
