@@ -6,26 +6,10 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-      <a class="navbar-brand" href="#">Logo</a>
+      <a class="navbar-brand" href="#"><img src="images/football_logo.png" alt="football logo"></a>
     </div>
 
-    <div id="login_div">
 
-      <div id="outside">
-        <input type="text" id="username" placeholder="enter username">
-        <input type="password" id="password" placeholder="enter password">
-
-        <button id="login">LOGIN</button>
-
-        <div id="message"</div>
-        </div>
-
-        <div id="inside">
-          <p>You are logged in!</p>
-          <button id="logout">LOGOUT</button>
-
-          <a href="shortlist.php">SHORTLISTED</a>
-        </div>
 
     <div class="collapse navbar-collapse" id="myNavbar">
 
@@ -34,12 +18,29 @@
         <li><a href="#">SHORTLISTED</a></li>
       </ul>
 
+      <ul class="nav navbar-nav navbar-right"
+            <div id="login_div">
+
+              <div id="outside">
+                <input type="text" id="username" placeholder="enter username">
+                <input type="password" id="password" placeholder="enter password">
+
+                <button id="login">LOGIN</button>
+
+                <div id="message"</div>
+                </div>
+
+                <div id="inside">
+                  <p>You are logged in!</p>
+                  <button id="logout">LOGOUT</button>
+
+                  <a href="shortlist.php">SHORTLISTED</a>
+                </div>
+
+              </ul>
+
       </div>
 
 </nav>
 
 <div id="about" class="container-fluid">
-  <div id="services" class="container-fluid">
-    <div id="portfolio" class="container-fluid">
-      <div id="pricing" class="container-fluid">
-        <div id="contact" class="container-fluid">

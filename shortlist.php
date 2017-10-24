@@ -19,3 +19,4 @@ if (!$_SESSION['logged_in']) {
   </div>
 
 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam nam et rem, aspernatur accusantium fugit dolorum itaque adipisci dolore vero, eos facere ullam, expedita totam fuga ad ea aperiam harum.</p>
+ 
