@@ -21,13 +21,13 @@
   <thead>
 
     <tr>
-      <th>Name</th>
-      <th>Position</th>
+      <th>First Name</th>
+      <th>Last Name</th>
       <th>Age</th>
+      <th>Position</th>
       <th>Foot</th>
       <th>Nationality</th>
       <th>Club</th>
-      <th>Country</th>
 
     </tr>
 

@@ -49,17 +49,14 @@ function display_players(data) {
     td.text(club);
     tr.append(td);
 
-
     //add data here...
 
-    //edit button
-
-    // var td = $('<td>');
-    // var button = $('<button>');
-    // button.addClass('btn btn-success edit');
-    // button.text('edit');
-    // td.append(button);
-    // tr.append(td);
+    var td = $('<td>');
+    var button = $('<button>');
+    button.addClass('btn btn-success shortlist');
+    button.text('shortlist');
+    td.append(button);
+    tr.append(td);
 
 
     //delete button
