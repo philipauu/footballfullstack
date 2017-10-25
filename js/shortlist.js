@@ -14,12 +14,40 @@ function display_shortlist(data) {
 
     var tr = $('<tr>');
 
-    var shortlisted = data[counter].shortlisted;
+    var first_name = data[counter].first_name;
     var td = $('<td>');
-    td.text(shortlisted);
+    td.text(first_name);
     tr.append(td);
 
+    var last_name = data[counter].last_name;
+    var td = $('<td>');
+    td.text(last_name);
+    tr.append(td);
 
+    var age = data[counter].age;
+    var td = $('<td>');
+    td.text(age);
+    tr.append(td);
+
+    var position = data[counter].position;
+    var td = $('<td>');
+    td.text(position);
+    tr.append(td);
+
+    var foot = data[counter].foot;
+    var td = $('<td>');
+    td.text(foot);
+    tr.append(td);
+
+    var nationality = data[counter].nationality;
+    var td = $('<td>');
+    td.text(nationality);
+    tr.append(td);
+
+    var club = data[counter].club;
+    var td = $('<td>');
+    td.text(club);
+    tr.append(td);
 
     //add data here...
 

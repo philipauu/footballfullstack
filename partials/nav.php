@@ -14,8 +14,8 @@
     <div class="collapse navbar-collapse" id="myNavbar">
 
       <ul class="nav navbar-nav navbar-left">
-        <li><a href="#">PLAYERS</a></li>
-        <li><a href="#">SHORTLISTED</a></li>
+        <li><a href="index.php">PLAYERS</a></li>
+        <li><a href="shortlist.php">SHORTLISTED</a></li>
       </ul>
 
       <ul class="nav navbar-nav navbar-right"
@@ -31,7 +31,7 @@
                 <div id="inside">
                   <p>You are logged in!</p>
                   <button id="logout">LOGOUT</button>
-  
+
                 </div>
               </ul>
       </div>

@@ -82,4 +82,5 @@ function display_players(data) {
 
 function do_shortlist() {
 console.log($(this));
+
 }
