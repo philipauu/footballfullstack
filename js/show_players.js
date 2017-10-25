@@ -59,6 +59,7 @@ function display_players(data) {
     tr.append(td);
 
 
+
     //delete button
 
     // var td = $('<td>');
