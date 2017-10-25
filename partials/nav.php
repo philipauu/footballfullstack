@@ -24,23 +24,17 @@
               <div id="outside">
                 <input type="text" id="user_name" value='phil' placeholder="enter username">
                 <input type="password" id="user_pass" value='1234' placeholder="enter password">
-
                 <button id="login">LOGIN</button>
-
-                <div id="message"</div>
-                </div>
+                <div id="message"></div>
+              </div>
 
                 <div id="inside">
                   <p>You are logged in!</p>
                   <button id="logout">LOGOUT</button>
-
-                  <a href="shortlist.php">SHORTLISTED</a>
+  
                 </div>
-
               </ul>
-
       </div>
-
 </nav>
 
 <div id="about" class="container-fluid">
