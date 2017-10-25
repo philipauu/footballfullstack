@@ -41,12 +41,15 @@ function showResult(str) {
 function do_login(){
   console.log('trying to login');
 
-  var user = $('#username').val();
-  var pass = $('#password').val();
+  var user_name = $('#user_name').val();
+  var user_pass = $('#user_pass').val();
+
+console.log(user_name + user_pass);
+
 
   var signin_creds = {
-    user: user,
-    pass: pass
+    user_name: user_name,
+    user_pass: user_pass
   };
 
 $.get('backend/admin/login.php', signin_creds).done(logged_in).fail(blow_up);

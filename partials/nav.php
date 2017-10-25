@@ -22,8 +22,8 @@
             <div id="login_div">
 
               <div id="outside">
-                <input type="text" id="username" placeholder="enter username">
-                <input type="password" id="password" placeholder="enter password">
+                <input type="text" id="user_name" value='phil' placeholder="enter username">
+                <input type="password" id="user_pass" value='1234' placeholder="enter password">
 
                 <button id="login">LOGIN</button>
 

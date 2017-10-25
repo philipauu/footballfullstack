@@ -9,8 +9,8 @@ sleep('1');
 
 $db = new DbConnect($app_user, $app_pass);
 
-$user_name = $_GET['user'];
-$user_pass = md5($_GET['pass']);
+$user_name = $_GET['user_name'];
+$user_pass = md5($_GET['user_pass']);
 logger($user_name . $user_pass);
 
 //$sql = "SELECT * FROM users WHERE user = '$user_name' && password = '$user_pass'";
@@ -28,12 +28,12 @@ logger($user_name . $user_pass);
 // }
 
 
-$stmt = $db -> conn -> prepare("SELCT * FROM user WHERE user = :user-name && password = :user_pass");
-$stmt -> bindParam(':user_name'), $user_name);
-$stmt -> bindParam(':user_pass'), $user_pass);
-$stmt -> execute();
+$stmt = $db->conn->prepare("SELECT * FROM user WHERE user = :user_name && password = :user_pass");
+$stmt->bindParam(':user_name'), $user_name);
+$stmt->bindParam(':user_pass'), $user_pass);
+$stmt->execute();
 
-if ($stmt -> rowCount() == 1){
+if ($stmt->rowCount() == 1){
   logger("user is registered");
   $_SESSION["logged_in"] = true;
   logger($_SESSION);
