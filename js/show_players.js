@@ -72,13 +72,13 @@ function display_players(data) {
   }
 
   // $('.edit').click(do_edit);
-  // $('.delete').click(do_delete);
+  //$('.shortlist').click(do_shortlist);
 }
 
 // function do_edit() {
 //   console.log($(this));
 // }
 //
-// function do_delete() {
-//   console.log($(this));
+//function do_shortlist() {
+//console.log($(this));
 // }
