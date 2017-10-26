@@ -5,14 +5,17 @@ require_once('../common/logger.php');
 
 $db = new DbConnect($app_user, $app_pass);
 
-$sql = "SELECT * FROM players2";
+$user = $_GET["user"];
+
+$player_id = $_GET["player_id"];
+
+$sql = "Insert into user_picks values (default, $user, $player_id)";
 
 $result = $db -> conn -> query($sql);
 
 if ($result) {
-  $output = $result -> fetchALL();
-  //logger ($output);
-  echo json_encode($output);
+
+  echo json_encode("added");
 // do true stuff
 } else {
   logger ($db -> conn -> error);

@@ -1,10 +1,13 @@
 function shortlist() {
   console.log('inside shortlist');
-  $.get('backend/players/shorlist.php').done(display_shortlist).fail(blow_up);
+  var data = {user:1};
+  $.get('backend/players/backend_shortlist.php', data).done(display_shortlist).fail(blow_up);
 }
 
 function display_shortlist(data) {
   console.log('inside display_shorlist');
+  console.log(data);
+
   data = JSON.parse(data);
   console.log(data);
   // hopefully shows a list of players
@@ -82,4 +85,14 @@ function display_shortlist(data) {
 
 function do_delete() {
 console.log($(this));
+player_id=$(this).attr("id");
+delete_button = $(this);
+var data = {user:1, player_id:player_id};
+$.get("backend/players/backend_add_to_shortlist.php", data).done(added_to_shortlist).fail(blow_up);
 }
+
+function added_to_shortlist(data){
+  console.log('deleted');
+  console.log(data);
+  shortlist_button.text("Added!").off().removeClass("btn-grey").addClass("btn-danger");
+  }

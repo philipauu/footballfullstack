@@ -24,10 +24,10 @@
   <div class="container-fluid bg-grey">
       <div class="row">
         <div class="col-sm-4">
-          <span class="glyphicon glyphicon-eye-open"></span>
+          <span class="glyphicon glyphicon-eye-open gi-5x"></span>
         </div>
         <div class="col-sm-8">
-          <h2>About This Database</h2>
+          <h2>Search For Rising Stars</h2>
           <h4><strong>PLAYERS:</strong> Below is a list of players with great potential</h4>
           <p><strong>VISION:</strong> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
             consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>

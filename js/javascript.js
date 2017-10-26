@@ -5,6 +5,7 @@ $(document).ready(setup);
 function setup() {
   console.log('Inside setup');
   show_players();
+  shortlist();
   $('#inside').hide();
 
   $('#login').click(do_login);

@@ -1,3 +1,5 @@
+var shortlist_button;
+
 function show_players() {
   console.log('inside show_players');
   $.get('backend/players/show_players.php').done(display_players).fail(blow_up);
@@ -54,6 +56,7 @@ function display_players(data) {
     var td = $('<td>');
     var button = $('<button>');
     button.addClass('btn btn-grey shortlist');
+    button.attr("id", data[counter].player_id);
     button.text('Shortlist');
     td.append(button);
     tr.append(td);
@@ -81,6 +84,14 @@ function display_players(data) {
 // }
 
 function do_shortlist() {
-console.log($(this));
-
+player_id=$(this).attr("id");
+shortlist_button = $(this);
+var data = {user:1, player_id:player_id};
+$.get("backend/players/backend_add_to_shortlist.php", data).done(added_to_shortlist).fail(blow_up);
 }
+
+function added_to_shortlist(data){
+  console.log('added to shortlist');
+  console.log(data);
+  shortlist_button.text("Added!").off().removeClass("btn-grey").addClass("btn-danger");
+  }
