@@ -24,7 +24,7 @@
               <div id="outside">
                 <input type="text" id="user_name" value='phil' placeholder="enter username">
                 <input type="password" id="user_pass" value='1234' placeholder="enter password">
-                <button id="login">LOGIN</button>
+                <button id="login">Login</button>
                 <div id="message"></div>
               </div>
 
@@ -36,5 +36,3 @@
               </ul>
       </div>
 </nav>
-
-<div id="about" class="container-fluid">
