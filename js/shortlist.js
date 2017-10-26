@@ -6,7 +6,6 @@ function shortlist() {
 
 function display_shortlist(data) {
   console.log('inside display_shorlist');
-  console.log(data);
 
   data = JSON.parse(data);
   console.log(data);

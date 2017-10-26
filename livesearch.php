@@ -2,7 +2,7 @@
 $xmlDoc=new DOMDocument();
 $xmlDoc->load("players2.sql");
 
-$x=$xmlDoc->getElementsByTagName('link');
+$x=$xmlDoc->getElementsByTagName('players2.sql');
 
 //get the q parameter from URL
 $q=$_GET["q"];

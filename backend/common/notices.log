@@ -20,3 +20,51 @@ line 5 (connection.php) loaded connection script!
 line 20 (connection.php) Connected successfully
 line 5 (connection.php) loaded connection script!
 line 20 (connection.php) Connected successfully
+line 5 (connection.php) loaded connection script!
+line 20 (connection.php) Connected successfully
+line 5 (connection.php) loaded connection script!
+line 20 (connection.php) Connected successfully
+line 5 (connection.php) loaded connection script!
+line 20 (connection.php) Connected successfully
+line 14 (login.php) lafafdlaj
+Line 44 in login.php, Undefined property: PDO::$error  (ErrorException)line 5 (connection.php) loaded connection script!
+line 20 (connection.php) Connected successfully
+line 14 (login.php) phil1234
+line 37 (login.php) user is registered
+line 39 (login.php) Array
+(
+    [logged_in] => 1
+)
+
+line 5 (connection.php) loaded connection script!
+line 20 (connection.php) Connected successfully
+line 5 (connection.php) loaded connection script!
+line 20 (connection.php) Connected successfully
+line 5 (connection.php) loaded connection script!
+line 20 (connection.php) Connected successfully
+line 5 (connection.php) loaded connection script!
+line 20 (connection.php) Connected successfully
+line 5 (connection.php) loaded connection script!
+line 20 (connection.php) Connected successfully
+line 5 (connection.php) loaded connection script!
+line 20 (connection.php) Connected successfully
+line 5 (connection.php) loaded connection script!
+line 20 (connection.php) Connected successfully
+line 5 (connection.php) loaded connection script!
+line 20 (connection.php) Connected successfully
+line 5 (connection.php) loaded connection script!
+line 20 (connection.php) Connected successfully
+line 5 (connection.php) loaded connection script!
+line 20 (connection.php) Connected successfully
+line 5 (connection.php) loaded connection script!
+line 20 (connection.php) Connected successfully
+line 5 (connection.php) loaded connection script!
+line 20 (connection.php) Connected successfully
+line 5 (connection.php) loaded connection script!
+line 20 (connection.php) Connected successfully
+line 5 (connection.php) loaded connection script!
+line 20 (connection.php) Connected successfully
+line 5 (connection.php) loaded connection script!
+line 20 (connection.php) Connected successfully
+line 5 (connection.php) loaded connection script!
+line 20 (connection.php) Connected successfully
