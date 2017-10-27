@@ -87,11 +87,11 @@ console.log($(this));
 player_id=$(this).attr("id");
 delete_button = $(this);
 var data = {user:1, player_id:player_id};
-$.get("backend/players/backend_add_to_shortlist.php", data).done(added_to_shortlist).fail(blow_up);
+$.get("backend/players/deleted_player.php", data).done(deleted_player).fail(blow_up);
 }
 
-function added_to_shortlist(data){
+function deleted_player(data){
   console.log('deleted');
   console.log(data);
-  shortlist_button.text("Added!").off().removeClass("btn-grey").addClass("btn-danger");
+  delete_button.text("deleted!").off().removeClass("btn-grey").addClass("btn-danger");
   }
